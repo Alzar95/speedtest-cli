@@ -1,0 +1,10 @@
+node_modules/
+.idea/
+*.log
+.DS_Store
+test-10mb.bin
+# macOS / Linux
+dd if=/dev/urandom of=test-10mb.bin bs=1m count=10
+
+# Windows (PowerShell)
+fsutil file createnew test-10mb.bin 10485760

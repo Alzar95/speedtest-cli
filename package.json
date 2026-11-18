@@ -1,0 +1,17 @@
+{
+  "name": "speedtest-cli",
+  "version": "1.0.0",
+  "description": "Console download speed test: 10 sequential GET requests",
+  "main": "speedtest.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node speedtest.js",
+    "gen:testfile": "node scripts/gen-test-file.js",
+    "example:1": "node speedtest.js https://99px.ru/sstorage/53/2022/08/mid_344562_951965.jpg",
+    "example:2": "node speedtest.js https://www.russiadiscovery.ru/storage/orig/posts/946/1000x700_Kolsky-poluostrov-s-RussiaDiscovery.jpg"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
